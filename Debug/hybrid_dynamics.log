@@ -1,0 +1,35 @@
+﻿Build started 3/12/2015 10:08:04 AM.
+     1>Project "C:\Users\Faris\Documents\ODE - Open Dynamics Engine\ode-0.12\build\hybrid_dynamics\hybrid_dynamics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Faris\Documents\ODE - Open Dynamics Engine\ode-0.12\ode\src" /I"C:\Users\Faris\Documents\ODE - Open Dynamics Engine\ode-0.12\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(521): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(525): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(539): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(543): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(547): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(551): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(555): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(559): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(563): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(567): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(571): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(575): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(579): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(587): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(591): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\skeleton.h(595): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\rigidbodycontrol.h(178): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\rigidbodycontrol.h(201): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\armcontrol.h(84): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\armcontrol.h(86): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\armcontrol.h(88): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\faris\documents\ode - open dynamics engine\ode-0.12\build\hybrid_dynamics\armcontrol.h(89): warning C4305: 'argument' : truncation from 'double' to 'const float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Faris\Documents\ODE - Open Dynamics Engine\ode-0.12\build\hybrid_dynamics\Debug\hybrid_dynamics.exe" /INCREMENTAL /NOLOGO ..\..\lib\DebugDoubleDLL\ode_doubled.lib ..\..\lib\DebugDoubleDLL\drawstuffd.lib opengl32.lib glu32.lib assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Faris\Documents\ODE - Open Dynamics Engine\ode-0.12\build\hybrid_dynamics\Debug\hybrid_dynamics.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Faris\Documents\ODE - Open Dynamics Engine\ode-0.12\build\hybrid_dynamics\Debug\hybrid_dynamics.lib" /MACHINE:X86 Debug\main.obj
+         hybrid_dynamics.vcxproj -> C:\Users\Faris\Documents\ODE - Open Dynamics Engine\ode-0.12\build\hybrid_dynamics\Debug\hybrid_dynamics.exe
+     1>Done Building Project "C:\Users\Faris\Documents\ODE - Open Dynamics Engine\ode-0.12\build\hybrid_dynamics\hybrid_dynamics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.53
